@@ -1,0 +1,11 @@
+.idea
+*.swp
+*.yaml
+*.xml
+*.svg
+*.bin
+**/.terraform
+*key*.json
+out.*
+plan.*
+manifests-*

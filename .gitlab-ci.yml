@@ -1,0 +1,9 @@
+include:
+  - project: hbx-data-ia/common/gitlab-project-templates/terraform-project-template
+    ref: master
+    file: template.gitlab-ci.yml
+
+# .project_variables:
+variables:
+  TYPE: "serving" # either provisioning or serving
+  VAULT_ENGINE: "ofr-fgt-shared-data"

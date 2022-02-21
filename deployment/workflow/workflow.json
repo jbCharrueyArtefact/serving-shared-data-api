@@ -1,0 +1,7 @@
+{
+  "name": "sample-workflow",
+  "description": "test workflow",
+  "service_account": "projects/${GCP_PROJECT_ID}/serviceAccounts/sa-ofr-fgt-workflow@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
+  "source_content": "../deployment/workflow/workflow_code/workflow.yaml.tpl",
+  "variables": "{ \"CLOUD_RUN_URI\": \"${CLOUD_RUN_URI}\" }"
+}

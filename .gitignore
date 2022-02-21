@@ -9,3 +9,4 @@
 out.*
 plan.*
 manifests-*
+.gitlab-ci copy.yml

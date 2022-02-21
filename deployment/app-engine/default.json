@@ -1,0 +1,9 @@
+{
+    "version_id" : "v0",
+    "service" : "default",
+    "runtime" : "python38",
+    "entrypoint" : "gunicorn -b :8080 main:app",
+    "port" : "8080",
+    "source" : "https://artifactory.si.francetelecom.fr:443/dfy-dlice-generic/release/serving-appengine",
+    "filename" : "default.zip"
+}

@@ -7,3 +7,4 @@ include:
 variables:
   TYPE: "serving" # either provisioning or serving
   VAULT_ENGINE: "ofr-fgt-shared-data"
+  SKIP_ITOP: "true" # to be deleted when the project enters its Production phase

@@ -1,0 +1,7 @@
+{
+  "test_logs_$ENV": {
+    "description": "",
+    "labels": {},
+    "location": "EU"
+  }
+}

@@ -6,7 +6,7 @@
     "tables": {
       "raw_fact_googlegroups_t": {
         "labels": {},
-        "schema": "../deployment/big-query/schemas/raw_google_groups_hist.json",
+        "schema": "../deployment/big-query/schemas/raw_fact_googlegroups_t.json",
         "deletion_protection": "true",
         "description": "Keep history of Google Groups at Group id X User id granularity"
       }

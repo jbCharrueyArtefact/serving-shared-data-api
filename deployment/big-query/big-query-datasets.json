@@ -1,4 +1,17 @@
 {
+  "google_groups_$ENV": {
+    "description": "dataset for google groups",
+    "labels": {},
+    "location": "EU",
+    "tables": {
+      "raw_google_groups_hist": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_google_groups_hist.json",
+        "deletion_protection": "true",
+        "description": "Keep history of Google Groups at Group id X User id granularity"
+      }
+    }
+  },
   "test_logs_$ENV": {
     "description": "",
     "labels": {},

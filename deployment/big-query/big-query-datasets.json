@@ -1,10 +1,10 @@
 {
-  "google_groups_$ENV": {
+  "googlegroups_audit_$ENV": {
     "description": "dataset for google groups",
     "labels": {},
     "location": "EU",
     "tables": {
-      "raw_google_groups_hist": {
+      "raw_fact_googlegroups_t": {
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_google_groups_hist.json",
         "deletion_protection": "true",

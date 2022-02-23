@@ -36,15 +36,9 @@
     "type": "STRING"
     },
     {
-    "description": "status",
+    "description": "insertion_date",
     "mode": "NULLABLE",
-    "name": "status",
-    "type": "STRING"
-    },
-    {
-    "description": "insertion_time",
-    "mode": "NULLABLE",
-    "name": "insertion_time",
+    "name": "insertion_date",
     "type": "DATETIME"
     }
 ]

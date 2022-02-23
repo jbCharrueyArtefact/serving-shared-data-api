@@ -1,5 +1,5 @@
 {
-  "googlegroups_audit_$ENV": {
+  "fgt_googlegroups_audit_$ENV": {
     "description": "dataset for google groups",
     "labels": {},
     "location": "EU",

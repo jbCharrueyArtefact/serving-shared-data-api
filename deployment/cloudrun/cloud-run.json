@@ -1,6 +1,6 @@
 {
   "name": "shared-data-nginx",
-  "image": "eu.gcr.io/ofr-fgt-shared-data-${ENV}/shared_data_api:0.0.1",
+  "image": "eu.gcr.io/ofr-fgt-shared-data-${ENV}/shared_data_api:0.0.2",
   "location": "europe-west3",
   "allow_public_access": "false",
   "ingress": "internal",

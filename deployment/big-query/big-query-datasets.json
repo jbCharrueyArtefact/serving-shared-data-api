@@ -1,7 +1,34 @@
 {
-  "test_logs_$ENV": {
-    "description": "",
+  "fgt_googlegroups_audit_$ENV": {
+    "description": "dataset for google groups",
     "labels": {},
-    "location": "EU"
-  }
+    "location": "EU",
+    "tables": {
+      "raw_fact_googlegroups_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_googlegroups_t.json",
+        "deletion_protection": "false",
+        "description": "Keep history of Google Groups at Group id X User id granularity"
+      }
+    }
+  },
+  "fgt_alldataset_iam_$ENV": {
+    "description": "dataset iam policies",
+    "labels": {},
+    "location": "EU",
+    "tables": {
+      "raw_fact_iampoliciestable_t": {
+        "time_partitioning": [
+          {
+            "type": "DAY",
+            "field": "timestamp",
+            "expiration_ms": "86400000"
+          }
+        ],
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_iampoliciestable_t.json",
+        "deletion_protection": false
+      }
+    }
+  } 
 }

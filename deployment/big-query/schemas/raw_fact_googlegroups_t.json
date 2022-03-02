@@ -1,0 +1,44 @@
+[  
+    {
+    "description": "user_email",
+    "mode": "NULLABLE",
+    "name": "user_email",
+    "type": "STRING"
+    },
+    {
+    "description": "group_email",
+    "mode": "NULLABLE",
+    "name": "group_email",
+    "type": "STRING"
+    },
+    {
+    "description": "role",
+    "mode": "NULLABLE",
+    "name": "role",
+    "type": "STRING"
+    },
+    {
+    "description": "type",
+    "mode": "NULLABLE",
+    "name": "type",
+    "type": "STRING"
+    },
+    {
+    "description": "id",
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+    },
+    {
+    "description": "kind",
+    "mode": "NULLABLE",
+    "name": "kind",
+    "type": "STRING"
+    },
+    {
+    "description": "insertion_date",
+    "mode": "NULLABLE",
+    "name": "insertion_date",
+    "type": "DATETIME"
+    }
+]

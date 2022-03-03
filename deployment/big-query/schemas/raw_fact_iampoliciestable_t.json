@@ -1,0 +1,26 @@
+[
+  {
+    "name": "timestamp",
+    "description": "timestamp",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "resource",
+    "description": "resources list in bigquery",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "role",
+    "description": "roles list in bigquery",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "member",
+    "description": "members list in bigquery",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

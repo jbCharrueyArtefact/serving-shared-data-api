@@ -40,5 +40,11 @@
     "mode": "NULLABLE",
     "name": "insertion_date",
     "type": "DATETIME"
+    },
+    {
+    "description": "batch_date",
+    "mode": "NULLABLE",
+    "name": "batch_date",
+    "type": "DATETIME"
     }
 ]

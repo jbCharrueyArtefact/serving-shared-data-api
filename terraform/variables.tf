@@ -56,6 +56,24 @@ variable "services_configuration" {
 }
 
 ###############################################################
+# Big Query                                                   #
+###############################################################
+variable "logsink_sql_dataset_prefix" {
+  type        = string
+  description = "A unique prefix ID for the dataset containing SQL related logs, without the project name."
+  default     = "fgt_sql_logsink"
+}
+
+###############################################################
+# Pub Sub                                                   #
+###############################################################
+variable "logsink_sql_pubsub_topic_prefix" {
+  type        = string
+  description = "The topic prefix where SQL logs must be routed."
+  default     = "ofr_fgt_topic_logsink"
+}
+
+###############################################################
 # Custom variables                                            #
 ###############################################################
 

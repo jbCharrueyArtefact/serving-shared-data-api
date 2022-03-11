@@ -1,0 +1,3 @@
+{
+    "${TOPICPREFIX}_${ENV}": []
+}

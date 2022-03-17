@@ -1,7 +1,7 @@
 {
-  "name": "sample-workflow",
-  "description": "test workflow",
+  "name": "get_detail_all_groups",
+  "description": "Collect the content of all google groups",
   "service_account": "projects/${GCP_PROJECT_ID}/serviceAccounts/sa-ofr-fgt-workflow@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
-  "source_content": "../deployment/workflow/workflow_code/workflow.yaml.tpl",
+  "source_content": "../deployment/workflow/workflow_code/get_detail_all_groups.tpl",
   "variables": "{ \"CLOUD_RUN_URI\": \"${CLOUD_RUN_URI}\" }"
 }

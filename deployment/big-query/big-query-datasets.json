@@ -21,8 +21,7 @@
         "time_partitioning": [
           {
             "type": "DAY",
-            "field": "timestamp",
-            "expiration_ms": "86400000"
+            "field": "timestamp"
           }
         ],
         "labels": {},

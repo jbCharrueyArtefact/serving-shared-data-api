@@ -8,8 +8,8 @@ services_configuration = {
     cpus                  = 1
     memory                = 1024
     min_instances         = 0
-    max_instances         = 1
-    concurrency           = 1
+    max_instances         = 10
+    concurrency           = 6
     iam_bindings = [
       {
         role   = "roles/run.invoker"

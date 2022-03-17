@@ -2,7 +2,7 @@ locals {
   # Scheduler configuration files
   scheduler_files = fileset("${path.module}/../deployment/cloudscheduler/", "*.json")
   schedulers = { for file in local.scheduler_files : file => jsondecode(templatefile("${path.module}/../deployment/cloudscheduler/${file}", {
-    WORKFLOW_ID    = google_workflows_workflow.workflows_example["workflow.json"].id,
+    WORKFLOW_ID    = google_workflows_workflow.workflows_example["get_detail_all_groups.json"].id,
     GCP_PROJECT_ID = var.project_id
     }
     )

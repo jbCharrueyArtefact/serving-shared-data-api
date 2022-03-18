@@ -1,3 +1,7 @@
+## 0.4.2 (2022-03-18)
+### Bugfix
+* HDIA-3474_bq-partitionned [(f4a4db0)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/f4a4db02479d185e14f2d230772eaa5bf7890d8e)
+
 ## 0.4.1 (2022-03-18)
 ### Bugfix
 * Cloud-run-timeout [(a712918)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/a7129186458c6098d2d0da926cd9523e5fcc87dd)

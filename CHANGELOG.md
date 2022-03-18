@@ -1,3 +1,7 @@
+## 0.4.1 (2022-03-18)
+### Bugfix
+* Cloud-run-timeout [(a712918)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/a7129186458c6098d2d0da926cd9523e5fcc87dd)
+
 ## 0.4.0 (2022-03-17)
 ### Features
 *  update cloud run / workflows / bq timeout [(72f5e05)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/72f5e052e0f15e552432bf7a8b31ada7da9a39ba)

@@ -27,7 +27,7 @@ locals {
         memory                = lookup(merge(var.services_configuration[file_content.name], file_content), "memory", 1)
         port                  = file_content.port
         service_account_email = merge(var.services_configuration[file_content.name], file_content).service_account_email
-        timeout               = lookup(merge(var.services_configuration[file_content.name], file_content), "timeout", 60)
+        timeout               = lookup(merge(var.services_configuration[file_content.name], file_content), "timeout", 1200)
         vpc_access_egress     = lookup(file_content, "vpc_access_egress", null)
         vpc_connector_name    = lookup(merge(var.services_configuration[file_content.name], file_content), "vpc_connector_name", null),
         iam_bindings          = lookup(merge(var.services_configuration[file_content.name], file_content), "iam_bindings", [])

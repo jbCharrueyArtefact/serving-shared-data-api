@@ -3,7 +3,7 @@ locals {
 }
 
 module "big_query" {
-  source   = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/?ref=0.38.0"
+  source   = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/?ref=0.39.0"
   project  = var.project_id
   datasets = local.big_query_datasets
 }

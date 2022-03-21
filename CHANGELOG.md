@@ -1,3 +1,7 @@
+## 0.4.3 (2022-03-21)
+### Bugfix
+* Bq_dataset_expiration [(74069a4)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/74069a4a1d446680125b0c27192b1130d4ca0bbf)
+
 ## 0.4.2 (2022-03-18)
 ### Bugfix
 * HDIA-3474_bq-partitionned [(f4a4db0)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/f4a4db02479d185e14f2d230772eaa5bf7890d8e)

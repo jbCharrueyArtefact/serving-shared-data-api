@@ -30,5 +30,24 @@
         "deletion_protection": false
       }
     }
+  },
+  "fgt_annuaire_audit_$ENV": {
+    "description": "dataset storing info regarding annuaire",
+    "labels": {},
+    "location": "EU",
+    "tables": {
+      "raw_fact_annuairehist_t": {
+        "time_partitioning": [
+          {
+            "type": "DATETIME",
+            "field": "insertion_date",
+            "expiration_ms": "0"
+          }
+        ],
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_annuairehist_t.json",
+        "deletion_protection": false
+      }
+    }
   } 
 }

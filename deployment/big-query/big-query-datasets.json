@@ -39,7 +39,7 @@
       "raw_fact_annuairehist_t": {
         "time_partitioning": [
           {
-            "type": "DATETIME",
+            "type": "DAY",
             "field": "insertion_date",
             "expiration_ms": "0"
           }

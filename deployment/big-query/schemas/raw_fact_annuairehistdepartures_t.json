@@ -61,9 +61,9 @@
     "type": "DATETIME"
     },
     {
-    "description": "insertion_date",
+    "description": "batch_date",
     "mode": "NULLABLE",
-    "name": "insertion_date",
+    "name": "batch_date",
     "type": "DATETIME"
     }
 ]

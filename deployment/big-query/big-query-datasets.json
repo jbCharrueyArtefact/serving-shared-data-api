@@ -36,16 +36,28 @@
     "labels": {},
     "location": "EU",
     "tables": {
-      "raw_fact_annuairehist_t": {
+      "raw_fact_annuairehistinternalmove_t": {
         "time_partitioning": [
           {
             "type": "DAY",
-            "field": "insertion_date",
+            "field": "batch_date",
             "expiration_ms": "0"
           }
         ],
         "labels": {},
-        "schema": "../deployment/big-query/schemas/raw_fact_annuairehist_t.json",
+        "schema": "../deployment/big-query/schemas/raw_fact_annuairehistinternalmove_t.json",
+        "deletion_protection": false
+      },
+      "raw_fact_annuairehistdepartures_t": {
+        "time_partitioning": [
+          {
+            "type": "DAY",
+            "field": "batch_date",
+            "expiration_ms": "0"
+          }
+        ],
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_annuairehistdepartures_t.json",
         "deletion_protection": false
       }
     }

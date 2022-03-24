@@ -39,7 +39,7 @@
       "raw_fact_annuairehistinternalmove_t": {
         "time_partitioning": [
           {
-            "type": "STRING",
+            "type": "DAY",
             "field": "batch_date",
             "expiration_ms": "2592000000"
           }
@@ -51,7 +51,7 @@
       "raw_fact_annuairehistdepartures_t": {
         "time_partitioning": [
           {
-            "type": "STRING",
+            "type": "DAY",
             "field": "batch_date",
             "expiration_ms": "2592000000"
           }

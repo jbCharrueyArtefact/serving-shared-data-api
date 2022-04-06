@@ -1,0 +1,86 @@
+[
+    {
+      "name": "service",
+      "description": "service",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "project",
+        "description": "project",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "datasets",
+        "description": "datasets",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tables",
+        "description": "tables",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "role",
+        "description": "role",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "user_type",
+      "description": "user_type",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "group_email",
+      "description": "group_email",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "user",
+      "description": "user",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "root_cause_deletion",
+        "description": "Root cause deletion either company departure or internal move",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "deleted_from",
+        "description": "Deleted either from a user or from a group",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "removed_from_groups",
+        "description": "Removed from group mail",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "to_be_deleted",
+        "description": "Is the right supposed to be deleted",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "is_deleted",
+        "description": "Is the access deleted after x days following detection",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "insertion_date",
+      "description": "insertion date",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    }
+  ]

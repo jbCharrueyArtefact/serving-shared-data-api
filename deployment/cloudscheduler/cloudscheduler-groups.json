@@ -1,14 +1,14 @@
 {
-    "job_name": "shared-data-test",
-    "description": "test cloud scheduler",
-    "job_schedule": "0 16 * * 4",
+    "job_name": "get-data-groups",
+    "description": "cloud scheduler for group composition",
+    "job_schedule": "0 16 * * *",
     "time_zone": "Europe/Paris",
     "attempt_deadline": "600s",
     "job_conf": {
       "http_target": {
         "http_method": "POST",
         "body": "",
-        "uri": "https://workflowexecutions.googleapis.com/v1/${WORKFLOW_ID}/executions",
+        "uri": "https://workflowexecutions.googleapis.com/v1/get_detail_all_groups/executions",
         "service_account_email": "sa-ofr-fgt-scheduler@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
         "auth_method": "oauth"
       }

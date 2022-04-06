@@ -1,0 +1,7 @@
+{
+  "name": "get_detail_iam_policies",
+  "description": "Collect the detail of all iam policies related to BigQuery",
+  "service_account": "projects/${GCP_PROJECT_ID}/serviceAccounts/sa-ofr-fgt-workflow@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
+  "source_content": "../deployment/workflow/workflow_code/get_detail_iam_policies.tpl",
+  "variables": "{ \"CLOUD_RUN_URI\": \"${CLOUD_RUN_URI}\" }"
+}

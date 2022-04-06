@@ -1,0 +1,16 @@
+{
+    "job_name": "get-data-policies",
+    "description": "cloud scheduler for iam policies",
+    "job_schedule": "0 16 * * *",
+    "time_zone": "Europe/Paris",
+    "attempt_deadline": "600s",
+    "job_conf": {
+      "http_target": {
+        "http_method": "POST",
+        "body": "",
+        "uri": "https://workflowexecutions.googleapis.com/v1/get_detail_iam_policies/executions",
+        "service_account_email": "sa-ofr-fgt-scheduler@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
+        "auth_method": "oauth"
+      }
+    }    
+}

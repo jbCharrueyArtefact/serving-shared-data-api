@@ -1,8 +1,8 @@
 {
-    "name": "get_group_members_process",
+    "name": "get_group_members_with_derived_membership",
     "description": "Collect the content of a group, this is meant to be executed in parallel",
     "service_account": "projects/${GCP_PROJECT_ID}/serviceAccounts/sa-ofr-fgt-workflow@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
-    "source_content": "../deployment/workflow/workflow_code/get_group_members_process.tpl",
+    "source_content": "../deployment/workflow/workflow_code/get_group_members_with_derived_membership.tpl",
     "variables": "{ \"CLOUD_RUN_URI\": \"${CLOUD_RUN_URI}\" }"
   }
   

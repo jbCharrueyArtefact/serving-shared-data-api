@@ -9,6 +9,12 @@
         "schema": "../deployment/big-query/schemas/raw_fact_googlegroups_t.json",
         "deletion_protection": "false",
         "description": "Keep history of Google Groups at Group id X User id granularity"
+      },
+      "raw_fact_googlegroupsnotderived_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_googlegroupsnotderived_t.json",
+        "deletion_protection": "false",
+        "description": "Keep history of Google Groups at Group id X User id granularity with no inheritence"
       }
     }
   },
@@ -28,6 +34,11 @@
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_iampoliciestable_t.json",
         "deletion_protection": false
+      },
+      "raw_fact_histpolicyupdates_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_histpolicyupdates_t.json",
+        "deletion_protection": true
       }
     }
   },
@@ -61,5 +72,11 @@
         "deletion_protection": false
       }
     }
-  } 
+  },
+  "fgt_views_audit_$ENV": {
+    "description": "dataset storing views to ops teams",
+    "labels": {},
+    "location": "EU",
+    "tables": {}
+  }  
 }

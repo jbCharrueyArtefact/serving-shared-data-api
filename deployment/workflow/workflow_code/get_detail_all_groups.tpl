@@ -55,10 +55,15 @@ main:
                                             }
                                 - group_batches: $${list.concat(group_batches, temp_dict)}
                                 - temp_groups: []
-    - parallel-executor:
+    - parallel-executor-group-collection-with-derived-membership:
         call: experimental.executions.map
         args:
-            workflow_id: get_group_members_process
+            workflow_id: get_group_members_with_derived_membership
+            arguments: $${group_batches}
+    - parallel-executor-group-collection-no-derived-membership:
+        call: experimental.executions.map
+        args:
+            workflow_id: get_group_members_no_derived_membership
             arguments: $${group_batches}
     - returnOutput:
         return: $${group_batches}

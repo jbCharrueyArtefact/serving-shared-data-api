@@ -1,69 +1,74 @@
 [  
     {
-    "description": "tech_timestamp_chargement",
-    "mode": "NULLABLE",
-    "name": "tech_timestamp_chargement",
-    "type": "DATETIME"
+        "description": "tech_timestamp_chargement",
+        "mode": "NULLABLE",
+        "name": "tech_timestamp_chargement",
+        "type": "DATETIME"
     },
     {
-    "description": "uid",
-    "mode": "NULLABLE",
-    "name": "uid",
-    "type": "STRING"
+        "description": "uid",
+        "mode": "NULLABLE",
+        "name": "uid",
+        "type": "STRING"
     },
     {
-    "description": "nom_normalise",
-    "mode": "NULLABLE",
-    "name": "nom_normalise",
-    "type": "STRING"
+        "description": "nom_normalise",
+        "mode": "NULLABLE",
+        "name": "nom_normalise",
+        "type": "STRING"
     },
     {
-    "description": "prenom_normalise",
-    "mode": "NULLABLE",
-    "name": "prenom_normalise",
-    "type": "STRING"
+        "description": "prenom_normalise",
+        "mode": "NULLABLE",
+        "name": "prenom_normalise",
+        "type": "STRING"
     },
     {
-    "description": "display_name",
-    "mode": "NULLABLE",
-    "name": "display_name",
-    "type": "STRING"
+        "description": "display_name",
+        "mode": "NULLABLE",
+        "name": "display_name",
+        "type": "STRING"
     },
     {
-    "description": "entite_affectation",
-    "mode": "NULLABLE",
-    "name": "entite_affectation",
-    "type": "STRING"
-    }
-    ,
+        "description": "mail",
+        "mode": "NULLABLE",
+        "name": "mail",
+        "type": "STRING"
+        },
     {
-    "description": "date_entree",
-    "mode": "NULLABLE",
-    "name": "date_entree",
-    "type": "DATETIME"
+        "description": "entite_affectation",
+        "mode": "NULLABLE",
+        "name": "entite_affectation",
+        "type": "STRING"
     },
     {
-    "description": "date_depart",
-    "mode": "NULLABLE",
-    "name": "date_depart",
-    "type": "DATETIME"
+        "description": "date_entree",
+        "mode": "NULLABLE",
+        "name": "date_entree",
+        "type": "DATETIME"
     },
     {
-    "description": "date_creation",
-    "mode": "NULLABLE",
-    "name": "date_creation",
-    "type": "DATETIME"
+        "description": "date_depart",
+        "mode": "NULLABLE",
+        "name": "date_depart",
+        "type": "DATETIME"
     },
     {
-    "description": "derniere_modification",
-    "mode": "NULLABLE",
-    "name": "derniere_modification",
-    "type": "DATETIME"
+        "description": "date_creation",
+        "mode": "NULLABLE",
+        "name": "date_creation",
+        "type": "DATETIME"
     },
     {
-    "description": "batch_date",
-    "mode": "NULLABLE",
-    "name": "batch_date",
-    "type": "DATETIME"
+        "description": "derniere_modification",
+        "mode": "NULLABLE",
+        "name": "derniere_modification",
+        "type": "DATETIME"
+    },
+    {
+        "description": "batch_date",
+        "mode": "NULLABLE",
+        "name": "batch_date",
+        "type": "DATETIME"
     }
 ]

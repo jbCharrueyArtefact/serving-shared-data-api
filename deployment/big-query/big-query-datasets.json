@@ -35,9 +35,19 @@
         "schema": "../deployment/big-query/schemas/raw_fact_iampoliciestable_t.json",
         "deletion_protection": false
       },
-      "raw_fact_histpolicyupdates_t": {
+      "raw_fact_histdeletionaccessiam_t": {
         "labels": {},
-        "schema": "../deployment/big-query/schemas/raw_fact_histpolicyupdates_t.json",
+        "schema": "../deployment/big-query/schemas/raw_fact_histdeletionaccessiam_t.json",
+        "deletion_protection": true
+      },
+      "raw_fact_histdeletionaccessgroups_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_histdeletionaccessgroups_t.json",
+        "deletion_protection": true
+      },
+      "raw_fact_histdeletionaccessbq_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_histdeletionaccessbq_t.json",
         "deletion_protection": true
       }
     }

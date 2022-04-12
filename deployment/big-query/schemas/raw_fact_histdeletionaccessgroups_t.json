@@ -1,0 +1,32 @@
+[
+  {
+      "name": "group",
+      "description": "group",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "employee",
+    "description": "employee",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "root_cause_deletion",
+      "description": "Root cause deletion either company departure or internal move",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+      "name": "deletion_status",
+      "description": "Step as part of the deletion process",
+      "type": "STRING",
+      "mode": "NULLABLE"
+  },
+  {
+    "name": "insertion_date",
+    "description": "insertion date",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  }
+]

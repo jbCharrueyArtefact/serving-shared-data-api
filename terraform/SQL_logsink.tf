@@ -39,7 +39,7 @@ locals {
 }
 
 module "logging_sink_bq" {
-  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.logging-sink/?ref=1.0.2"
+  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.logging-sink/?ref=1.0.3"
 
   logsink_name           = local.logsink_name_bqt
   logsink_description    = local.logsink_description_bqt
@@ -50,17 +50,17 @@ module "logging_sink_bq" {
 }
 
 module "logging_sink_pubsub" {
-  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.logging-sink/?ref=1.0.2"
+  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.logging-sink/?ref=1.0.3"
 
   logsink_name        = local.logsink_name_pubsub
   logsink_description = local.logsink_description_pubsub
   logsink_filter      = local.logsink_filter_pubsub
   destination_type    = local.logsink_destination_type_pubsub
-  resource_id         = module.pubsub_for_loggingsink.google_pubsub_topic_id["${var.logsink_sql_pubsub_topic_prefix}_${var.env}"]
+  resource_id         = module.pubsub_for_loggingsink.google_pubsub_topic_id["${var.logsink_sql_pubsub_topic_prefix}-${var.env}"]
 }
 
 module "logging_sink_gcs" {
-  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.logging-sink/?ref=1.0.2"
+  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.logging-sink/?ref=1.0.3"
 
   logsink_name        = local.logsink_name_gcs
   logsink_description = local.logsink_description_gcs

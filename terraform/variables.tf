@@ -70,7 +70,13 @@ variable "logsink_sql_dataset_prefix" {
 variable "logsink_sql_pubsub_topic_prefix" {
   type        = string
   description = "The topic prefix where SQL logs must be routed."
-  default     = "ofr_fgt_topic_logsink"
+  default     = "ofr-fgt-topic-logsink"
+}
+
+variable "logsink_sql_pubsub_subs_prefix" {
+  type        = string
+  description = "The subscription name to use to trigger cloud run from PuSub."
+  default     = "ofr-fgt-subs-triggercloudrun"
 }
 
 ###############################################################

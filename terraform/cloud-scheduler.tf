@@ -10,7 +10,7 @@ locals {
 }
 
 module "cloudschedulers" {
-  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.cloud-scheduler/?ref=0.7.0"
+  source = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.cloud-scheduler/?ref=0.7.1"
 
   for_each      = local.schedulers
   configuration = { "configuration" : each.value }

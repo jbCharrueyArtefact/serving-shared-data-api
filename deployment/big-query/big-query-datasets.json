@@ -88,5 +88,28 @@
     "labels": {},
     "location": "EU",
     "tables": {}
-  }  
+  },
+  "fgt_data_groups_info_$ENV":{
+    "description": "dataset storing data groups info",
+    "labels": {},
+    "location": "EU",
+    "tables": {
+      "raw_fact_gestionnairedata":{
+        "labels": {},
+        "schema":"../deployment/big-query/schemas/raw_fact_gestionnairedatagroups_t.json",
+        "deletion_protection": true
+      },
+      "raw_fact_restrictionentities":{
+        "labels": {},
+        "schema":"../deployment/big-query/schemas/raw_fact_restrictionentities_t.json",
+        "deletion_protection": true
+      },
+      "raw_fact_datagroups":{
+        "labels": {},
+        "schema":"../deployment/big-query/schemas/raw_fact_datagroups_t.json",
+        "deletion_protection": true
+      }
+      
+    }
+  }
 }

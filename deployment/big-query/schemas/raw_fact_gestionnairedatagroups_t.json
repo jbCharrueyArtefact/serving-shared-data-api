@@ -1,0 +1,14 @@
+[  
+    {
+        "description": "group admin",
+        "mode": "REQUIRED",
+        "name": "admin",
+        "type": "STRING"
+    },
+    {
+        "description": "Group name",
+        "mode": "REQUIRED",
+        "name": "group_name",
+        "type": "STRING"
+    }
+]

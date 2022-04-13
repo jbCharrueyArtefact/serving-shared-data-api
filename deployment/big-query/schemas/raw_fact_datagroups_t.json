@@ -1,0 +1,45 @@
+[
+    {
+        "description": "group name",
+        "mode": "REQUIRED",
+        "name": "group_name",
+        "type": "String"
+    },
+    {
+        "description": "email",
+        "mode": "REQUIRED",
+        "name": "email",
+        "type": "STRING"
+    },
+    {
+        "description": "description",
+        "mode": "REQUIRED",
+        "name": "description",
+        "type": "STRING"
+    },
+    {
+        "description": "entities ids",
+        "mode": "REPEATED",
+        "name": "entities",
+        "type": "INT64"
+    },
+    {
+        "description": "is a banking data groups",
+        "mode": "REQUIRED",
+        "name": "is_banking",
+        "type": "BOOL"
+    },
+    {
+        "description": "associated project",
+        "mode": "REQUIRED",
+        "name": "project",
+        "type": "STRING"
+    },
+    {
+        "description": "creation data",
+        "mode": "REQUIRED",
+        "name": "creation_date",
+        "type": "DATETIME"
+    }
+
+]

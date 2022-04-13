@@ -1,0 +1,20 @@
+[
+    {
+      "name": "entity_name",
+      "description": "name of the entity",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "ID",
+      "description": "id of the entity",
+      "type": "INT64",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "start_validity_date",
+      "description": "start date of the entity validity",
+      "type": "Datetime",
+      "mode": "REQUIRED"
+    }
+]

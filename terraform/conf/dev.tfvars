@@ -1,7 +1,8 @@
 ### dev #######################################################
 
-env        = "dev"
-project_id = "ofr-fgt-shared-data-dev" # project id (!! Not project name!!)
+env                = "dev"
+project_id         = "ofr-fgt-shared-data-dev" # project id (!! Not project name!!)
+log_sink_folder_id = 713604594771              # OFR / Sandbox
 services_configuration = {
   "shared-data-nginx" = {
     service_account_email = "sa-ofr-fgt-cloud-run@ofr-fgt-shared-data-dev.iam.gserviceaccount.com"

@@ -1,6 +1,0 @@
-{
-  "logsink_name": "ofr-fgt-audit-gcs-ENV",
-  "logsink_description": "This is a log sink for Cotools (for GCS)",
-  "logsink_filter": "resource.type = gce_instance",
-  "logsink_destination_type": "gcs"
-}

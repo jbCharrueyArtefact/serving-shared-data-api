@@ -80,6 +80,14 @@ variable "logsink_sql_pubsub_subs_prefix" {
 }
 
 ###############################################################
+# Folder log sink                                                   #
+###############################################################
+variable "log_sink_folder_id" {
+  type        = number
+  description = "Folder id where to deploy the folder Log Sink"
+}
+
+###############################################################
 # Custom variables                                            #
 ###############################################################
 

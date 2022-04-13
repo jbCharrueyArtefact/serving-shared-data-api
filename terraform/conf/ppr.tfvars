@@ -1,7 +1,8 @@
 ### ppr #######################################################
 
-env        = "ppr"
-project_id = "ofr-fgt-shared-data-ppr" # project id (!! Not project name!!)
+env                = "ppr"
+project_id         = "ofr-fgt-shared-data-ppr" # project id (!! Not project name!!)
+log_sink_folder_id = 414707464702              # OFR / Hors production
 services_configuration = {
   "shared-data-nginx" = {
     service_account_email = "sa-ofr-fgt-cloud-run@ofr-fgt-shared-data-ppr.iam.gserviceaccount.com"

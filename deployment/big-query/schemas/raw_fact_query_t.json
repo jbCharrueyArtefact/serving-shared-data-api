@@ -1,0 +1,32 @@
+[  
+    {
+        "description": "principal making the request",
+        "mode": "NULLABLE",
+        "name": "principal",
+        "type": "STRING"
+    },
+    {
+        "description": "is the request allowed",
+        "mode": "NULLABLE",
+        "name": "hasRight",
+        "type": "BOOLEAN"
+    },
+    {
+        "description": "detail of the query",
+        "mode": "REPEATED",
+        "name": "reason",
+        "type": "STRING"
+    },
+    {
+        "description": "query",
+        "mode": "NULLABLE",
+        "name": "query",
+        "type": "STRING"
+    },
+    {
+        "description": "type of the query",
+        "mode": "NULLABLE",
+        "name": "time",
+        "type": "DATETIME"
+    }
+]

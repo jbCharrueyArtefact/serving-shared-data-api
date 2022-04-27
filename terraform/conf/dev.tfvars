@@ -15,7 +15,11 @@ services_configuration = {
       {
         role   = "roles/run.invoker"
         member = "serviceAccount:sa-ofr-fgt-workflow@ofr-fgt-shared-data-dev.iam.gserviceaccount.com"
-      }
+      },
+      {
+        role   = "roles/run.invoker"
+        member = "serviceAccount:sa-ofr-fgt-pubusb-subscription@ofr-fgt-shared-data-dev.iam.gserviceaccount.com"
+      },
     ]
   }
 }

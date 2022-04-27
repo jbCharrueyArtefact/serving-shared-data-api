@@ -89,6 +89,18 @@
     "location": "EU",
     "tables": {}
   },
+  "fgt_query_$ENV": {
+    "description": "dataset storing queries",
+    "labels": {},
+    "location": "EU",
+    "tables": {
+      "raw_fact_query_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_query_t.json",
+        "deletion_protection": false
+      }
+    }
+  },
   "fgt_data_groups_info_$ENV":{
     "description": "dataset storing data groups info",
     "labels": {},

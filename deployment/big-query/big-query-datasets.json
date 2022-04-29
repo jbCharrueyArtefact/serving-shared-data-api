@@ -7,13 +7,13 @@
       "raw_fact_googlegroups_t": {
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_googlegroups_t.json",
-        "deletion_protection": "false",
+        "deletion_protection": false,
         "description": "Keep history of Google Groups at Group id X User id granularity"
       },
       "raw_fact_googlegroupsnotderived_t": {
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_googlegroupsnotderived_t.json",
-        "deletion_protection": "false",
+        "deletion_protection": false,
         "description": "Keep history of Google Groups at Group id X User id granularity with no inheritence"
       }
     }
@@ -33,22 +33,33 @@
         ],
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_iampoliciestable_t.json",
-        "deletion_protection": false
-      },
+        "deletion_protection": false,
+        "description": "Keep history of all IAM policies either with primitive roles or BQ roles"
+      }
+    }
+  },
+  "fgt_deletionaccess_hist_$ENV": {
+    "description": "Historise all access modifications",
+    "labels": {},
+    "location": "EU",
+    "tables": {
       "raw_fact_histdeletionaccessiam_t": {
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_histdeletionaccessiam_t.json",
-        "deletion_protection": true
+        "deletion_protection": false,
+        "description": "Keep history of IAM accesses deleted automatically"
       },
       "raw_fact_histdeletionaccessgroups_t": {
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_histdeletionaccessgroups_t.json",
-        "deletion_protection": true
+        "deletion_protection": false,
+        "description": "Keep history of Group accesses deleted automatically"
       },
       "raw_fact_histdeletionaccessbq_t": {
         "labels": {},
         "schema": "../deployment/big-query/schemas/raw_fact_histdeletionaccessbq_t.json",
-        "deletion_protection": true
+        "deletion_protection": false,
+        "description": "Keep history of BQ accesses deleted automatically"
       }
     }
   },
@@ -57,16 +68,16 @@
     "labels": {},
     "location": "EU",
     "tables": {
-      "raw_fact_annuairehistinternalmove_t": {
+      "raw_fact_annuairehistiamaccesses_t": {
         "time_partitioning": [
           {
             "type": "DAY",
-            "field": "batch_date",
+            "field": "ingestion_date",
             "expiration_ms": "2592000000"
           }
         ],
         "labels": {},
-        "schema": "../deployment/big-query/schemas/raw_fact_annuairehistinternalmove_t.json",
+        "schema": "../deployment/big-query/schemas/raw_fact_annuairehistiamaccesses_t.json",
         "deletion_protection": false
       },
       "raw_fact_annuairehistdepartures_t": {
@@ -109,17 +120,17 @@
       "raw_fact_gestionnairedata":{
         "labels": {},
         "schema":"../deployment/big-query/schemas/raw_fact_gestionnairedatagroups_t.json",
-        "deletion_protection": true
+        "deletion_protection": false
       },
       "raw_fact_restrictionentities":{
         "labels": {},
         "schema":"../deployment/big-query/schemas/raw_fact_restrictionentities_t.json",
-        "deletion_protection": true
+        "deletion_protection": false
       },
       "raw_fact_datagroups":{
         "labels": {},
         "schema":"../deployment/big-query/schemas/raw_fact_datagroups_t.json",
-        "deletion_protection": true
+        "deletion_protection": false
       }
       
     }

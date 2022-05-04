@@ -43,9 +43,9 @@ See [confluence documentation](https://espace.agir.orange.com/display/HDIA/orang
 
 
 ## BigQuery (including for logging sink) <a name="bigquery"></a>
-See [developer documentation](https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/-/blob/0.39.0/SERVING.md).
+See [developer documentation](https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/-/blob/0.42.0/SERVING.md).
 
-See [ops documentation](https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/-/blob/0.39.0/README.md).
+See [ops documentation](https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/-/blob/0.42.0/README.md).
 
 See [confluence documentation](https://espace.agir.orange.com/display/HDIA/orange.bigquery).
 

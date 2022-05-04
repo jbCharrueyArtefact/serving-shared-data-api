@@ -4,5 +4,6 @@
   "location": "europe-west3",
   "allow_public_access": "false",
   "ingress": "internal",
-  "port": 8000
+  "port": 8000,
+  "env": { "ENV": "${ENV}" }
 }

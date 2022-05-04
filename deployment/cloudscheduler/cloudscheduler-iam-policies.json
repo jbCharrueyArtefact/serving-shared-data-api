@@ -8,7 +8,7 @@
       "http_target": {
         "http_method": "POST",
         "body": "",
-        "uri": "https://workflowexecutions.googleapis.com/v1/get_detail_iam_policies/executions",
+        "uri": "https://workflowexecutions.googleapis.com/v1/${WORKFLOW_IAM_POLICIES_ID}/executions",
         "service_account_email": "sa-ofr-fgt-scheduler@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
         "auth_method": "oauth"
       }

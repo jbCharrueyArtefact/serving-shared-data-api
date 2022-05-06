@@ -141,5 +141,17 @@
         "labels": {}
       }
     }
+  },
+  "fgt_allprojects_folders_$ENV": {
+    "description": "dataset storing all projects with corresponding folders and labels",
+    "labels": {},
+    "location": "EU",
+    "tables": {
+      "raw_fact_projectsfolders_t": {
+        "labels": {},
+        "schema": "../deployment/big-query/schemas/raw_fact_projectsfolders_t.json",
+        "deletion_protection": false
+      }
+    }
   }
 }

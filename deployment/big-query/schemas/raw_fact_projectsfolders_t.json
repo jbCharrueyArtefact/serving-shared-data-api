@@ -1,0 +1,50 @@
+[
+  {
+    "name": "timestamp",
+    "description": "timestamp",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "projectNumber",
+    "description": "project number",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "projectId",
+    "description": "project id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lifecycleState",
+    "description": "lifecycle State in bigquery",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "name",
+    "description": "project name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "labels",
+    "description": "project labels",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "createTime",
+    "description": "project creation time",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "parent",
+    "description": "the folder containing the project",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,17 +1,16 @@
 {
-    "job_name": "get-data-groups",
-    "description": "cloud scheduler for group composition",
-    "job_schedule": "0 8-23 * * *",
+    "job_name": "get-historize-data",
+    "description": "cloud scheduler for iam policies",
+    "job_schedule": "15 8 * * *",
     "time_zone": "Europe/Paris",
     "attempt_deadline": "600s",
     "job_conf": {
       "http_target": {
         "http_method": "POST",
         "body": "",
-        "uri": "https://workflowexecutions.googleapis.com/v1/${WORKFLOW_GROUP_DETAILS_ID}/executions",
+        "uri": "https://workflowexecutions.googleapis.com/v1/${WORKFLOW_HISTORIZE_AUDIT_DATA_ID}/executions",
         "service_account_email": "sa-ofr-fgt-scheduler@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
         "auth_method": "oauth"
       }
     }    
 }
-  

@@ -1,0 +1,7 @@
+{
+  "name": "historize_audit_base_data",
+  "description": "Collect the content essential to the audit feature",
+  "service_account": "projects/${GCP_PROJECT_ID}/serviceAccounts/sa-ofr-fgt-workflow@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
+  "source_content": "../deployment/workflow/workflow_code/historize_audit_base_data.tpl",
+  "variables": "{ \"CLOUD_RUN_URI\": \"${CLOUD_RUN_URI}\" }"
+}

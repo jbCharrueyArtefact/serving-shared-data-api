@@ -1,0 +1,7 @@
+{
+  "name": "get_departure_and_internal_moves",
+  "description": "Get moves and proceed to data access deletion",
+  "service_account": "projects/${GCP_PROJECT_ID}/serviceAccounts/sa-ofr-fgt-workflow@${GCP_PROJECT_ID}.iam.gserviceaccount.com",
+  "source_content": "../deployment/workflow/workflow_code/get_departure_and_internal_moves.tpl",
+  "variables": "{ \"CLOUD_RUN_URI\": \"${CLOUD_RUN_URI}\" }"
+}

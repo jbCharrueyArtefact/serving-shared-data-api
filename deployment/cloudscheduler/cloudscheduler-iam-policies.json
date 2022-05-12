@@ -1,7 +1,7 @@
 {
     "job_name": "get-data-policies",
     "description": "cloud scheduler for iam policies",
-    "job_schedule": "0 16 * * *",
+    "job_schedule": "0 8-23 * * *",
     "time_zone": "Europe/Paris",
     "attempt_deadline": "600s",
     "job_conf": {

@@ -7,7 +7,7 @@ locals {
 }
 
 module "big_query_for_logsink" {
-  source   = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/?ref=0.40.3"
+  source   = "git::https://gitlab.si.francetelecom.fr/hbx-data-ia/common/terraform-modules/orange.bigquery/?ref=0.42.2"
   project  = var.project_id
   datasets = local.big_query_datasets_for_logsink
 }

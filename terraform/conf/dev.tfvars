@@ -23,3 +23,14 @@ services_configuration = {
     ]
   }
 }
+cloud_scheduler_configuration = {
+  "cloudscheduler-get-departure-and-internal-moves.json" = {
+    job_schedule = "14 8 * * *"
+  },
+  "cloudscheduler-groups.json" = {
+    job_schedule = "0 10-12 * * *"
+  },
+  "cloudscheduler-historize-audit-base-data.json" = {
+    job_schedule = "14 8 * * *"
+  }
+}

@@ -1,7 +1,6 @@
 {
     "job_name": "get-historize-data",
     "description": "cloud scheduler for iam policies",
-    "job_schedule": "15 8 * * *",
     "time_zone": "Europe/Paris",
     "attempt_deadline": "600s",
     "job_conf": {

@@ -56,6 +56,14 @@ variable "services_configuration" {
 }
 
 ###############################################################
+# Cloud Scheduler                                                   #
+###############################################################
+variable "cloud_scheduler_configuration" {
+  type        = map(map(string))
+  description = "Service specific configuration"
+}
+
+###############################################################
 # Big Query                                                   #
 ###############################################################
 variable "logsink_sql_dataset_prefix" {

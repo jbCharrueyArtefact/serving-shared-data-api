@@ -19,3 +19,17 @@ services_configuration = {
     ]
   }
 }
+cloud_scheduler_configuration = {
+  "cloudscheduler-get-departure-and-internal-moves.json" = {
+    job_schedule = "15 8 * * *"
+  },
+  "cloudscheduler-groups.json" = {
+    job_schedule = "0 8-23 * * *"
+  },
+  "cloudscheduler-historize-audit-base-data.json" = {
+    job_schedule = "15 8 * * *"
+  },
+  "cloudscheduler-iam-policies.json" = {
+    job_schedule = "0 8-23 * * *"
+  }
+}

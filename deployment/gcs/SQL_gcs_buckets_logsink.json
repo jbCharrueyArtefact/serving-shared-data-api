@@ -2,5 +2,9 @@
   {
     "name": "ofr-fgt-sql-logsink",
     "location": "EU"
+  },
+  {
+    "name": "ofr-fgt-labels-landingzone",
+    "location": "EU"
   }
 ]

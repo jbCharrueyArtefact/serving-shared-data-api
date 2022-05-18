@@ -1,0 +1,86 @@
+[
+    {
+        "description": "service",
+        "mode": "NULLABLE",
+        "name": "service",
+        "type": "STRING"
+    },
+    {
+        "description": "project",
+        "mode": "NULLABLE",
+        "name": "project",
+        "type": "STRING"
+    },
+    {
+        "description": "datasets",
+        "mode": "NULLABLE",
+        "name": "datasets",
+        "type": "STRING"
+    },
+    {
+        "description": "tables",
+        "mode": "NULLABLE",
+        "name": "tables",
+        "type": "STRING"
+    },
+    {
+        "description": "role",
+        "mode": "NULLABLE",
+        "name": "role",
+        "type": "STRING"
+    },
+    {
+        "description": "user_type",
+        "mode": "NULLABLE",
+        "name": "user_type",
+        "type": "STRING"
+    },
+    {
+        "description": "group_email",
+        "mode": "NULLABLE",
+        "name": "group_email",
+        "type": "STRING"
+    },
+    {
+        "description": "user",
+        "mode": "NULLABLE",
+        "name": "user",
+        "type": "STRING"
+    },
+    {
+        "description": "Root cause deletion either company departure or internal move",
+        "mode": "NULLABLE",
+        "name": "root_cause_deletion",
+        "type": "STRING"
+    },
+    {
+        "description":"Deleted either from a user or from a group",
+        "mode": "NULLABLE",
+        "name": "deleted_from",
+        "type": "STRING"
+    },
+   {
+        "description" : "Removed from group mail",
+        "mode"        : "NULLABLE",
+        "name"        : "removed_from_groups",
+        "type"        : "STRING"
+      },
+   {
+       "description" : "Is the right supposed to be deleted",
+       "mode"        : "NULLABLE",
+       "name"        : "to_be_deleted",
+       "type"        : "BOOLEAN"
+      },
+   {
+       "description" : "Is the access deleted after x days following detection",
+       "mode"        : "NULLABLE",
+       "name"        : "is_deleted",
+       "type"        : "BOOLEAN"
+      },
+   {
+       "description" : "insertion date",
+       "mode"        : "NULLABLE",
+       "name"        : "insertion_date",
+       "type"        : "DATETIME"
+      }
+  ]

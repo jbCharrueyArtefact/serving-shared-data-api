@@ -1,7 +1,6 @@
 {
     "job_name": "get-departures-internal-moves",
     "description": "cloud scheduler for iam policies",
-    "job_schedule": "14 8 * * *",
     "time_zone": "Europe/Paris",
     "attempt_deadline": "600s",
     "job_conf": {

@@ -30,7 +30,13 @@
     "mode": "NULLABLE"
   },
   {
-    "name": "labels",
+    "name": "labels_type",
+    "description": "project labels",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "labels_value",
     "description": "project labels",
     "type": "STRING",
     "mode": "NULLABLE"

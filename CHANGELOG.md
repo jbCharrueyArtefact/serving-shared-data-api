@@ -1,3 +1,30 @@
+## 0.5.0 (2022-05-23)
+### Features
+* Serving update status orange employee [(073aa92)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/073aa92a688e5dc9dff28cb074e0bf91165fe623)
+* Serving update status orange employee [(ca368a8)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/ca368a8f4ef2a5655a0ad46e6330dda5c2c4dee1)
+* Serving update status orange employee [(d6faca9)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/d6faca906d6917e3b861e6126c65f301bafee31f)
+* Serving update status orange employee [(2226e1a)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/2226e1a0382f6f9bffed2e8243f27c2b7eb60868)
+* Dataset_table_creation_folders [(d0d7694)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/d0d76940da46b6d0463222c91ecba64a564a585e)
+* Serving update status orange employee [(77d3fba)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/77d3fba094372f90df9c08fdf3f08edad71f8996)
+* HDIA-3474_foldgging_sink [(1fb78e4)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/1fb78e43edd6e34258e3b6dea6466792555b9437)
+* Tables for lot2 [(cde831b)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/cde831b957a41a6af630f3a0d3d5922cff491c27)
+* HDIA-3474_pubsub [(0f9db18)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/0f9db1831f8885616e4bb0dd16f59bd9b206eced)
+* Serving update status orange employee [(a6da3c2)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/a6da3c2c84582394aafad1e177989e0b44ee2d97)
+*  Create history tables for annuaire [(7b7a3bf)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/7b7a3bf8e1973e46f2d2f11ce9c5261025b82583)
+* Set new dataset and table to host historisation of annuaire data [(731d0cf)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/731d0cf5e454b1fcee92fcaf5d36284b38a16497)
+
+### Bugfix
+* Parametrize-cloud-scheduler [(1ce8822)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/1ce8822274020092b454ef0bac8a60c4a3eafb09)
+* Bq-upgrade [(c534bbb)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/c534bbb0e58701d5133c3c940cf244c63c62c92b)
+* Montee_version_module_bq [(b110802)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/b110802cd88dce36d06cca951e7d98fd36e9fdcc)
+* Cloud-scheduler [(b010517)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/b0105178eec7ccab8b72422dd127845e685aceb3)
+*  add missing field in table [(adf5e11)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/adf5e11cd3027e40587103d42d5b3096f5c9ca2a)
+*  update expiration date BQ tables [(b3a2d08)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/b3a2d087221595936cec0012db565e8f44f57d8b)
+*  update expiration date BQ tables [(8efb68b)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/8efb68b225e1863bf70987f7536a8caa8405f543)
+*  fixed typo in BQ schema [(cdaba9f)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/cdaba9f82e6ae6c556cf9b6a00a484a14d9986a8)
+*  fixed typo in BQ schema [(e50281f)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/e50281f8a7a2409882d4d88ffba01b77fba20049)
+*  update type partitionning [(1d4f419)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/1d4f419604b6b0e19e71586949213116cca4251a)
+
 ## 0.4.3 (2022-03-21)
 ### Bugfix
 * Bq_dataset_expiration [(74069a4)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/74069a4a1d446680125b0c27192b1130d4ca0bbf)

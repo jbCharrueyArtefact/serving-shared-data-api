@@ -1,3 +1,7 @@
+## 0.6.0 (2022-05-24)
+### Features
+* Update cron cloud scheduler with news values to prevent exceeding API rates [(371d25e)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/371d25ec1c70ce4aaa8c2fff74ae5e48be9b713f)
+
 ## 0.5.0 (2022-05-23)
 ### Features
 * Serving update status orange employee [(073aa92)](https://gitlab.si.francetelecom.fr/hbx-data-ia/gcp/ofr-fgt-shared-data/ofr-fgt-shared-data-serving/commits/073aa92a688e5dc9dff28cb074e0bf91165fe623)

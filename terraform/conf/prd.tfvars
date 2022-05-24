@@ -27,9 +27,9 @@ cloud_scheduler_configuration = {
     job_schedule = "0 8-23 * * *"
   },
   "cloudscheduler-historize-audit-base-data.json" = {
-    job_schedule = "15 8 * * *"
+    job_schedule = "25 8 * * *"
   },
   "cloudscheduler-get-departure-and-internal-moves.json" = {
-    job_schedule = "15 8 * * *"
+    job_schedule = "25 8 * * *"
   }
 }

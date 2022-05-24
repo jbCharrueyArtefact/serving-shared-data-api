@@ -21,15 +21,15 @@ services_configuration = {
 }
 cloud_scheduler_configuration = {
   "cloudscheduler-iam-policies.json" = {
-    job_schedule = "0 11-15/2 * * *"
+    job_schedule = "30 11-15/2 * * *"
   },
   "cloudscheduler-groups.json" = {
-    job_schedule = "0 11-15/2 * * *"
+    job_schedule = "30 11-15/2 * * *"
   },
   "cloudscheduler-historize-audit-base-data.json" = {
-    job_schedule = "15 8 * * *"
+    job_schedule = "15 12 * * *"
   },
   "cloudscheduler-get-departure-and-internal-moves.json" = {
-    job_schedule = "15 8 * * *"
+    job_schedule = "15 12 * * *"
   }
 }
